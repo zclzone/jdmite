@@ -75,11 +75,10 @@ body {
   position: relative;
 }
 .jd-banner ul:first-child {
-  width: 1000%;
-  transform: translateX(-10%);
+  width: 800%;
 }
 .jd-banner ul:first-child li {
-  width: 10%;
+  width: 12.5%;
   float: left;
 }
 .jd-banner ul:first-child li a {
