@@ -1,0 +1,131 @@
+.jd-category {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.jd-topBar {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #ddd;
+  background: url('../images/header-bg.png') repeat-x;
+  background-size: 1px 44px;
+}
+
+.jd-topBar a {
+  width: 40px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  padding: 12px 10px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+.jd-topBar .icon-back {
+  left: 0;
+  background-position: -20px 0;
+}
+.jd-topBar .icon-menu {
+  right: 0;
+  background-position: -60px 0;
+}
+.jd-topBar form {
+  padding: 0 40px;
+}
+.jd-topBar form input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-top: 7px;
+}
+
+/* 主题内容 */
+.jd-main {
+  width: 100%;
+  height: 100%;
+  padding-top: 45px;
+}
+
+/* 左侧分类 */
+.cate-left {
+  width: 90px;
+  height: 100%;
+  float: left;
+}
+
+.cate-left ul {
+  width: 90px;
+}
+.cate-left ul li {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #f3f4f6;
+  font-size: 14px;
+}
+.cate-left ul li a {
+  display: block;
+}
+.cate-left ul li.current {
+  border-right: none;
+  background: #fff;
+}
+.cate-left ul li.current a {
+  color: #d8505c;
+}
+
+.cate-right {
+  overflow: hidden;
+  height: 100%;
+}
+
+.cate-right-box {
+  width: 100%;
+  padding: 0 10px;
+}
+.cate-right-box .banner {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+.cate-right-box .banner img {
+  display: block;
+  width: 100%;
+}
+.cate-right-box .hot-category {
+  margin-top: 10px;
+}
+.cate-right-box .hot-category h3 {
+  font-size: 14px;
+}
+.cate-right-box .hot-category ul {
+  width: 100%;
+}
+.cate-right-box .hot-category ul li {
+  width: 33.3333%;
+  float: left;
+  padding: 10px 0;
+}
+.cate-right-box .hot-category ul li a {
+  width: 100%;
+  display: block;
+}
+.cate-right-box .hot-category ul li a img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.cate-right-box .hot-category ul li a p {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}

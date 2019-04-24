@@ -24,7 +24,7 @@ body {
   min-width: 320px;
   max-width: 640px;
   margin: 0 auto;
-  background-color: #d8505c;
+  background-color: rgba(216, 80, 92, 0);
   position: relative;
 }
 .jd-search .search-box a {
@@ -93,13 +93,13 @@ body {
   position: absolute;
   bottom: 8px;
   left: 50%;
-  margin-left: -59px;
-  width: 118px;
+  transform: translateX(-50%);
+  width: 162px;
 }
 .jd-banner ul:last-child li {
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
   border: 1px solid #fff;
   float: left;
   margin-left: 10px;
@@ -109,6 +109,8 @@ body {
 }
 .jd-banner ul:last-child li.current {
   background-color: #fff;
+  width: 18px;
+  border-radius: 4px;
 }
 
 /* 导航栏 */
